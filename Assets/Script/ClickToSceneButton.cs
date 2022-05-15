@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-public class ClickButton : MonoBehaviour
+public class ClickToSceneButton : MonoBehaviour
 {
     public int OpenSceneNumb;
     public void OnButtonClick()
