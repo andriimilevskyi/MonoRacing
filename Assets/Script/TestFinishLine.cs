@@ -6,12 +6,43 @@ using UnityEngine.SceneManagement;
 
 public class TestFinishLine : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider collishion)
+    // bool NoOneFinishBefore
+
+
+    bool NoOneFinishBefore = true;
+    public int WinSceneNum;
+    public int LoseSceneNum;
+
+     void OnTriggerEnter(Collider collishion)
     {
 
+        if (collishion.tag == "Bot")
+        {
+            NoOneFinishBefore = false;
+        }
+       
         if (collishion.tag == "Player")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex * 0 + 0);
+            if (NoOneFinishBefore == true)
+            {
+                OpenWinScene();            }
+            else
+            {
+                OpenLoseScene();
+            }
         }
+
+
+void OpenWinScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - SceneManager.GetActiveScene().buildIndex + WinSceneNum);
     }
+void OpenLoseScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - SceneManager.GetActiveScene().buildIndex + LoseSceneNum);
+    }
+   
+
+
+}
 }
