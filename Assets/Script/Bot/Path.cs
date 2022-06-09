@@ -38,7 +38,7 @@ public class Path : MonoBehaviour
             }
 
             Gizmos.DrawLine(previousNode, currentNode);
-            Gizmos.DrawWireSphere(currentNode, 0.5f);
+            Gizmos.DrawWireSphere(currentNode, 1f);
         }
     }
 }
