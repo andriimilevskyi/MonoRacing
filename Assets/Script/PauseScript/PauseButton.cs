@@ -8,12 +8,14 @@ public class PauseButton : MonoBehaviour
     public GameObject Background; 
     public GameObject Button1;
     public GameObject Button2;
+    public GameObject Button3;
 
     private void Start()
     {
         Background.SetActive(false);
         Button1.SetActive(false);
         Button2.SetActive(false);
+        Button3.SetActive(false);
     }
     public void onResumeButtonClick()
     {
@@ -28,6 +30,7 @@ public class PauseButton : MonoBehaviour
         Background.SetActive(true);
         Button1.SetActive(true);
         Button2.SetActive(true);
+        Button3.SetActive(true);
 
 
 
