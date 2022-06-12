@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.683043, g: 0.77595955, b: 0.8526727, a: 1}
+  m_IndirectSpecularColor: {r: 0.68313605, g: 0.77588755, b: 0.85233843, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -88537,6 +88537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d55e205d35cdb224e8fd021d2df8c603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NoOneFinishBefore: 1
   WinSceneNum: 2
   LoseSceneNum: 3
 --- !u!23 &559405626
@@ -167648,7 +167649,7 @@ GameObject:
   - component: {fileID: 1072532815}
   m_Layer: 0
   m_Name: Wheel Collider
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213942,7 +213943,7 @@ GameObject:
   - component: {fileID: 1370341899}
   m_Layer: 0
   m_Name: Wheels
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338340,7 +338341,7 @@ GameObject:
   - component: {fileID: 7227335149749889149}
   m_Layer: 0
   m_Name: HeadLights
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338358,7 +338359,7 @@ GameObject:
   - component: {fileID: 1243520643964921559}
   m_Layer: 0
   m_Name: SignalRight Glass
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338461,7 +338462,7 @@ GameObject:
   - component: {fileID: 1177900979392678664}
   m_Layer: 0
   m_Name: HeadLight Lenses
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338511,7 +338512,7 @@ GameObject:
   - component: {fileID: 163529847603057794}
   m_Layer: 0
   m_Name: Exhaust
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338565,7 +338566,7 @@ GameObject:
   - component: {fileID: 1141736492115192419}
   m_Layer: 0
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338759,7 +338760,7 @@ GameObject:
   - component: {fileID: 5154887692115882857}
   m_Layer: 0
   m_Name: Wiper 1
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338791,7 +338792,7 @@ GameObject:
   - component: {fileID: 2930075226502274771}
   m_Layer: 0
   m_Name: Bump_FR
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338809,7 +338810,7 @@ GameObject:
   - component: {fileID: 4901693497406011941}
   m_Layer: 0
   m_Name: BrakeLights
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338855,7 +338856,7 @@ GameObject:
   - component: {fileID: 411427057763518658}
   m_Layer: 0
   m_Name: SignalLeft Glass_R
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338903,7 +338904,7 @@ GameObject:
   - component: {fileID: 8961691227114944451}
   m_Layer: 0
   m_Name: FogLight Glass
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339008,7 +339009,7 @@ GameObject:
   - component: {fileID: 5154571913531145176}
   m_Layer: 0
   m_Name: HeadLight Glass
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339375,7 +339376,7 @@ GameObject:
   - component: {fileID: 6910581320669727770}
   m_Layer: 0
   m_Name: BrakeLights Glass
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339435,7 +339436,7 @@ GameObject:
   - component: {fileID: 5133913966116939560}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339549,7 +339550,7 @@ GameObject:
   - component: {fileID: 3267538405848111964}
   m_Layer: 0
   m_Name: ReverseLight Glass
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339581,7 +339582,7 @@ GameObject:
   - component: {fileID: 490331795324510984}
   m_Layer: 0
   m_Name: Door
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339675,7 +339676,7 @@ GameObject:
   - component: {fileID: 6937427010138397758}
   m_Layer: 0
   m_Name: SignalRight Glass_R
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339707,7 +339708,7 @@ GameObject:
   - component: {fileID: 5062007182151753429}
   m_Layer: 0
   m_Name: TailLights
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339804,7 +339805,7 @@ GameObject:
   - component: {fileID: 6133865341113505082}
   m_Layer: 0
   m_Name: SignalLeft Glass
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -340213,7 +340214,7 @@ GameObject:
   - component: {fileID: 2617618170065231048}
   m_Layer: 0
   m_Name: RearBump
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -340370,7 +340371,7 @@ GameObject:
   - component: {fileID: 3712662466318112423}
   m_Layer: 0
   m_Name: Wiper
-  m_TagString: Untagged
+  m_TagString: Bot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

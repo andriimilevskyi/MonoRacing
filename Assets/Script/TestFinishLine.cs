@@ -9,7 +9,7 @@ public class TestFinishLine : MonoBehaviour
     // bool NoOneFinishBefore
 
 
-    bool NoOneFinishBefore = true;
+    public bool NoOneFinishBefore = true;
     public int WinSceneNum;
     public int LoseSceneNum;
 
@@ -20,6 +20,7 @@ public class TestFinishLine : MonoBehaviour
         {
             NoOneFinishBefore = false;
         }
+       
        
         if (collishion.tag == "Player")
         {
